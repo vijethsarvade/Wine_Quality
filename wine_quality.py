@@ -210,7 +210,7 @@ accuracy = metrics.accuracy_score(y_test, predictions)
 print('Accuracy: {:.2f}'.format(accuracy))
 #classification rate is at accuracy of 70%
 
-#6.Tree Evaluation diagram 
+#6.Tree Evaluation diagram ok
 from io import StringIO
 from sklearn.tree import export_graphviz
 from IPython.display import Image
