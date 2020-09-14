@@ -3,6 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 wine=pd.read_csv("C://Users//svije//.spyder-py3//Wine_Quality//Data//datasets_4458_8204_winequality-red.csv")
+
 #Objecives:
 #1.Build a model to Segregation on Wine into red wine and white wine by using k-means cluster
 #2.Build a classification models to predict whether the quality of wine is “good quality” or not
